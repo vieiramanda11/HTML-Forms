@@ -130,6 +130,42 @@ body {
     text-align: center;
     width: 318px;
 }
+
+.termsText {
+    color: #757575;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 270px;
+}
+
+.terms a {
+    color: #0077c5;
+    text-decoration: none;
+}
+
+.mainFooter {
+    align-items: center;
+    color: #8d9096;
+    display: flex;
+    background-color: #eceef1;
+    bottom: 0%;
+    font-size: 10px;
+    height: 53px;
+    justify-content: center;
+    line-height: 15px;
+    text-align: center;
+    width: 380px;  
+}
+
+.mainFooter a {
+    color: #0077c5;
+    text-decoration: none;
+}
 /* Footer */
 #footer {
     height: 99px;
