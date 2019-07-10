@@ -7,25 +7,72 @@
 body {
     background-color: #ECEEF1;
 }
-
+/* Navigation bar*/
 #nav {
+    display: flex;
     height: 60px;
+    justify-content: flex-end;
+    margin-top: 10px;
+    width: 100vw;
+    
+    
+}
+
+.navText {
+    display: flex;
+    flex-direction: column;
+}
+
+.navText p {
+    color: #505050;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+
+}
+
+.navText a {
+    color: #0077c5;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.signBtn {
+    background-color: #0077c5;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 13.5px;
+    height: 34px;
+    margin: 0 20px;
+    text-align: center;
+    width: 101px;
+}
+
+/* Main Content*/
+#main-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     width: 100vw;
 }
 
-#main-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
+#logo {
+    height: 105px;
+    width: 379px;
 }
 
 #main {
     background-color: white;
+    border: 1px solid #8d9096;
+    border-radius: 2px;
     display: flex;
     height: 668px;
     width: 380px;
 }
 
+/* Footer */
 #footer {
     height: 99px;
     width: 100vw;
