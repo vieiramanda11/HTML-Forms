@@ -111,6 +111,7 @@ body {
 }
 
 .label input {
+    border: 1px solid#404040;
     border-radius: 3px;
     font-size: 16.8px;
     line-height: 21.84px;
@@ -135,7 +136,7 @@ body {
     color: #757575;
     font-size: 12px;
     font-style: italic;
-    margin-bottom: 29px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -168,6 +169,19 @@ body {
 }
 /* Footer */
 #footer {
+    align-items: center;
+    color: #505050;
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
     height: 99px;
+    justify-content: center;
+    line-height: 18px;
+    text-align: center;
     width: 100vw;
+}
+
+#footer a {
+    color: #505050;
+    text-decoration: none;
 }
