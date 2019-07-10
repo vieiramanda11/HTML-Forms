@@ -66,6 +66,7 @@ body {
 #main {
     background-color: white;
     border: 1px solid #8d9096;
+    border-bottom: 0px;
     border-radius: 2px;
     height: 668px;
     width: 380px;
@@ -154,6 +155,7 @@ body {
     color: #8d9096;
     display: flex;
     background-color: #eceef1;
+    border-bottom: 1px solid #8d9096; 
     bottom: 0%;
     font-size: 10px;
     height: 53px;
