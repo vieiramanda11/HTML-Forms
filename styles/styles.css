@@ -59,8 +59,28 @@ body {
 }
 
 #logo {
-    height: 105px;
-    width: 379px;
+    height: 88px;
+    width: 180px;
+}
+
+.productLogo {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.productLogo p {
+    color: #808080;
+    font-family: Montserrat, sans-serif;
+    font-size: 19.2px;
+    text-align: center;
+}
+
+.productLogo img {
+    height: 26px;
+    padding: 0 2px;
+    width: 26px;
+
 }
 
 #main {
